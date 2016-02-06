@@ -2,11 +2,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.mkyong</groupId>
-	<artifactId>CounterWebApp</artifactId>
+	<groupId>ru.academ_it_school</groupId>
+	<artifactId>SpringApi</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>CounterWebApp Maven Webapp</name>
+	<name>Api</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<jdk.version>1.7</jdk.version>
@@ -78,22 +78,22 @@
 	</dependencies>
 
 	<build>
-		<finalName>CounterWebApp</finalName>
+		<finalName>SpringApi</finalName>
 
 		<plugins>
 		    <!-- Eclipse project -->
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<version>2.9</version>
 				<configuration>
-				    <!-- Always download and attach dependencies source code -->
+				    &lt;!&ndash; Always download and attach dependencies source code &ndash;&gt;
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>false</downloadJavadocs>
-					<!-- mvn eclipse:eclipse -Dwtpversion=2.0 -->
+					&lt;!&ndash; mvn eclipse:eclipse -Dwtpversion=2.0 &ndash;&gt;
 					<wtpversion>2.0</wtpversion>
 				</configuration>
-			</plugin>
+			</plugin>-->
 			
 			<!-- Set JDK Compiler Level -->
 			<plugin>
@@ -107,14 +107,14 @@
 			</plugin>
 
 			<!-- For Tomcat -->
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<path>/CounterWebApp</path>
+					<path>/</path>
 				</configuration>
-			</plugin>
+			</plugin>-->
 
 		</plugins>
 

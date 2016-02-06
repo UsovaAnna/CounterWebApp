@@ -22,11 +22,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="CounterWebApp" />
+      </profile>
+      <profile default="false" name="Annotation profile for SpringApp" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="SpringApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CounterWebApp" target="1.7" />
+      <module name="SpringApp" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

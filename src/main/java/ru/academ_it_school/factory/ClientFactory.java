@@ -1,7 +1,7 @@
-package factory;
+package ru.academ_it_school.factory;
 
 
-import beans.ClientBean;
+import ru.academ_it_school.beans.ClientBean;
 
 /**
  * Created by ausova on 06.02.16.

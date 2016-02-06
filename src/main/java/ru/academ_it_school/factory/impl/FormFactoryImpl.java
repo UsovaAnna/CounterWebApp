@@ -1,10 +1,11 @@
-package factory.impl;
+package ru.academ_it_school.factory.impl;
 
 
-import beans.FormBean;
-import factory.ClientFactory;
-import factory.FormFactory;
+
 import org.springframework.stereotype.Component;
+import ru.academ_it_school.beans.FormBean;
+import ru.academ_it_school.factory.ClientFactory;
+import ru.academ_it_school.factory.FormFactory;
 
 /**
  * Created by ausova on 06.02.16.

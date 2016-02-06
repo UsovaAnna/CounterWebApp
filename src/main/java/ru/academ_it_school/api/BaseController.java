@@ -1,4 +1,4 @@
-package com.mkyong.controller;
+package ru.academ_it_school.api;
 
 import beans.ClientBean;
 import beans.FormBean;

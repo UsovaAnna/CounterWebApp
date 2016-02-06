@@ -1,6 +1,7 @@
-package factory;
+package ru.academ_it_school.factory;
 
-import beans.FormBean;
+
+import ru.academ_it_school.beans.FormBean;
 
 /**
  * Created by ausova on 06.02.16.

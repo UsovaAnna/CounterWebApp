@@ -1,4 +1,4 @@
-package beans;
+package ru.academ_it_school.beans;
 
 import java.util.Date;
 

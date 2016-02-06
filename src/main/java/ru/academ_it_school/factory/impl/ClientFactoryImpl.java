@@ -1,9 +1,9 @@
-package factory.impl;
+package ru.academ_it_school.factory.impl;
 
 
-import beans.ClientBean;
-import factory.ClientFactory;
 import org.springframework.stereotype.Component;
+import ru.academ_it_school.beans.ClientBean;
+import ru.academ_it_school.factory.ClientFactory;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

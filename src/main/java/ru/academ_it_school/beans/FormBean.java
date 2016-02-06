@@ -1,4 +1,4 @@
-package beans;
+package ru.academ_it_school.beans;
 
 /**
  * Created by ausova on 06.02.16.

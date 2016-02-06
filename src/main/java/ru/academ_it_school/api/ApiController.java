@@ -18,8 +18,6 @@ import ru.academ_it_school.factory.impl.FormFactoryImpl;
 public class ApiController {
 
     private static final String FAIL_JSON = "{\"result:\" = \"FAIL\"}";
-    private static int counter = 0;
-    private static final String VIEW_INDEX = "index";
 
 	//@Autowired
     private ClientFactory clientFactory = new ClientFactoryImpl();

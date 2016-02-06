@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CounterWebApp.iml" filepath="$PROJECT_DIR$/CounterWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringApp.iml" filepath="$PROJECT_DIR$/SpringApp.iml" />
     </modules>
   </component>
 </project>

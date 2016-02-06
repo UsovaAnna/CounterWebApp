@@ -2,9 +2,7 @@ package ru.academ_it_school.api;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -22,7 +20,6 @@ public class ApiController {
     private static final String FAIL_JSON = "{\"result:\" = \"FAIL\"}";
     private static int counter = 0;
     private static final String VIEW_INDEX = "index";
-    private final static org.slf4j.Logger logger = LoggerFactory.getLogger(ApiController.class);
 
 	//@Autowired
     private ClientFactory clientFactory = new ClientFactoryImpl();

@@ -17,12 +17,12 @@ import ru.academ_it_school.factory.impl.FormFactoryImpl;
 
 @Controller
 @RequestMapping("/api")
-public class BaseController {
+public class ApiController {
 
     private static final String FAIL_JSON = "{\"result:\" = \"FAIL\"}";
     private static int counter = 0;
     private static final String VIEW_INDEX = "index";
-    private final static org.slf4j.Logger logger = LoggerFactory.getLogger(BaseController.class);
+    private final static org.slf4j.Logger logger = LoggerFactory.getLogger(ApiController.class);
 
 	//@Autowired
     private ClientFactory clientFactory = new ClientFactoryImpl();

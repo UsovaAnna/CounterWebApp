@@ -1,19 +1,19 @@
 package ru.academ_it_school.api;
 
-import beans.ClientBean;
-import beans.FormBean;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import factory.ClientFactory;
-import factory.FormFactory;
-import factory.impl.ClientFactoryImpl;
-import factory.impl.FormFactoryImpl;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import ru.academ_it_school.beans.ClientBean;
+import ru.academ_it_school.beans.FormBean;
+import ru.academ_it_school.factory.ClientFactory;
+import ru.academ_it_school.factory.FormFactory;
+import ru.academ_it_school.factory.impl.ClientFactoryImpl;
+import ru.academ_it_school.factory.impl.FormFactoryImpl;
 
 @Controller
 @RequestMapping("/api")

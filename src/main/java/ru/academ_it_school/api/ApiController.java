@@ -28,18 +28,6 @@ public class ApiController {
     private ClientFactory clientFactory = new ClientFactoryImpl();
     private FormFactory formFactory = new FormFactoryImpl();
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String welcome(ModelMap model) {
-
-        model.addAttribute("message", "Welcome");
-        model.addAttribute("counter", ++counter);
-        logger.debug("[welcome] counter sdada : {}", counter);
-
-        // Spring uses InternalResourceViewResolver and return back index.jsp
-        return VIEW_INDEX;
-
-    }
-
     @RequestMapping(value = "/getClient", method = RequestMethod.GET)
     public
     @ResponseBody
